@@ -198,7 +198,7 @@ return [
     'classes_content' => '',
     'classes_sidebar' => 'sidebar-dark-primary elevation-4',
     'classes_sidebar_nav' => '',
-    'classes_topnav' => 'navbar-white navbar-light',
+    'classes_topnav' => 'navbar-dark navbar-darkmode',
     'classes_topnav_nav' => 'navbar-expand',
     'classes_topnav_container' => 'container',
 
@@ -301,7 +301,7 @@ return [
             'topnav_right' => true,
         ],
         [
-            'type' => 'fullscreen-widget',
+            'type' => 'darkmode-widget',
             'topnav_right' => true,
         ],
 
@@ -340,12 +340,12 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
 
-        [
+       /*  [
             'text' => 'Log Out',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
             'id' => 'cerrar-sesion',
-        ],
+        ], */
        
         
         /* [
@@ -386,11 +386,11 @@ return [
                 ],
             ],
         ], */
-         ['header' => 'Copyright © ADSO',
+        /*  ['header' => 'Copyright © ADSO',
             
          'id' => 'copyright'
             
-        ],
+        ], */
       /*   [
             'text' => 'important',
             'icon_color' => 'red',
